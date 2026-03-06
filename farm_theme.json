@@ -1,0 +1,48 @@
+{
+  "name": "Farm Dashboard Theme",
+  "dataColors": [
+    "#1B4332",
+    "#2D6A4F",
+    "#52B788",
+    "#B45309",
+    "#F59E0B",
+    "#1E3A5F",
+    "#3B82F6",
+    "#7C3AED",
+    "#059669",
+    "#DC2626"
+  ],
+  "background": "#FAFAFA",
+  "foreground": "#1E293B",
+  "tableAccent": "#2D6A4F",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{"value": "Calibri"}],
+        "fontSize": [{"value": 11}]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#D8F3DC"}}}],
+        "border": [{"show": true, "color": {"solid": {"color": "#2D6A4F"}}}]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{"fill": {"solid": {"color": "#1B4332"}}}]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{"fill": {"solid": {"color": "#2D6A4F"}}}]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {"fontFace": "Calibri", "color": "#1E293B"},
+    "callout": {"fontFace": "Calibri", "color": "#1B4332"},
+    "title": {"fontFace": "Calibri", "color": "#1B4332"},
+    "header": {"fontFace": "Calibri", "color": "#FFFFFF"}
+  }
+}

@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/raw/*.csv
+data/processed/*.xlsx
+data/ai_outputs/*.json
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/ai_outputs/.gitkeep
+.DS_Store
+.ipynb_checkpoints/

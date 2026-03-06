@@ -1,0 +1,36 @@
+# config.yaml
+# Author: Mousumi Paul
+# Project-wide configuration for AI Farm Dashboard
+
+project:
+  name: "AI-Powered Farm Dashboard"
+  author: "Mousumi Paul"
+  version: "1.0.0"
+  year_range: [2020, 2021, 2022, 2023, 2024]
+
+openai:
+  model: "gpt-4o"
+  temperature: 0.3
+  max_tokens: 800
+  mock_mode_if_no_key: true
+
+data:
+  raw_dir:       "data/raw"
+  processed_dir: "data/processed"
+  ai_output_dir: "data/chatgpt_outputs"
+  reports_dir:   "reports"
+
+pipeline:
+  generate_records: 500
+  weather_records:  600
+  sample_seed:      42
+
+powerbi:
+  master_file:       "powerbi_master_dataset.xlsx"
+  weather_file:      "powerbi_weather_monthly.xlsx"
+  ai_insights_file:  "powerbi_ai_insights.xlsx"
+  crop_matrix_file:  "powerbi_crop_season_matrix.xlsx"
+
+logging:
+  level: "INFO"
+  log_file: "logs/pipeline.log"
