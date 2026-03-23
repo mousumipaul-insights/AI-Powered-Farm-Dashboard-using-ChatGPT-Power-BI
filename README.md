@@ -54,4 +54,3 @@ ai-farm-dashboard/
 | Excel Output | openpyxl |
 | BI Dashboard | Power BI |
 
-**Author:** Mousumi Paul | GitHub: [@mousumi-paul](https://github.com/mousumi-paul)
